@@ -7,7 +7,7 @@ You can find the room [here](https://tryhackme.com/room/locate)
 ## Challenge 1
 
 to extract the metadata i ran this command:
-```
+``` bash
 $ exiftool Challenge1.png
 ExifTool Version Number         : 13.55
 File Name                       : Challenge1.png
