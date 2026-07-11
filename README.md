@@ -1,2 +1,7 @@
 # Locate-THM
-official repository and writeup for the challenge Locate on TryHackMe
+
+In this room you will test your steganography, metadata and location skillset
+
+## Challenge 1
+
+
