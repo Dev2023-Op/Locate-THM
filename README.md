@@ -7,7 +7,7 @@ You can find the room [here](https://tryhackme.com/room/locate)
 ## Challenge 1
 
 to extract the metadata i ran this command:
-``` shell
+```sh
 $ exiftool Challenge1.png
 ExifTool Version Number         : 13.55
 File Name                       : Challenge1.png
@@ -48,3 +48,41 @@ i used yandex to find the city but i had to scroll down to find the city name in
 <img src="yandex2-1.png"></img>
 
 # Challenge 3
+
+This image has a flag hidden in it.
+
+We got lucky with a metadata search last time so ill try that this time.
+
+```sh
+$ exiftool Challenge3.png
+ExifTool Version Number         : 13.55
+File Name                       : Challenge3.png
+Directory                       : .
+File Size                       : 901 kB
+File Modification Date/Time     : 2026:07:11 18:34:17-04:00
+File Access Date/Time           : 2026:07:11 18:35:02-04:00
+File Inode Change Date/Time     : 2026:07:11 18:34:17-04:00
+File Permissions                : -rw-rw-r--
+File Type                       : PNG
+File Type Extension             : png
+MIME Type                       : image/png
+Image Width                     : 1534
+Image Height                    : 464
+Bit Depth                       : 8
+Color Type                      : RGB with Alpha
+Compression                     : Deflate/Inflate
+Filter                          : Adaptive
+Interlace                       : Noninterlaced
+Image Size                      : 1534x464
+Megapixels                      : 0.712
+```
+
+we can see from above that there is no metadata flag.
+
+the next thing that we can try is steganography.
+
+we can see that this is a png file so steghide wont support it.
+
+i found a online steganography tool that you can access [here](https://stylesuxx.github.io/steganography/)
+
+<img src="steg.png"></img>
