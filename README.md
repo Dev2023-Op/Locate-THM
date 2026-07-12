@@ -84,5 +84,9 @@ the next thing that we can try is steganography.
 we can see that this is a png file so steghide wont support it.
 
 i found a online steganography tool that you can access [here](https://stylesuxx.github.io/steganography/)
-
 <img src="steg.png"></img>
+
+next we have to find the location of the image.
+
+yandex gave me no results so i will have to use google
+<img src="google.png"></img>
