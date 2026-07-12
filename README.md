@@ -7,7 +7,7 @@ You can find the room [here](https://tryhackme.com/room/locate)
 ## Challenge 1
 
 to extract the metadata i ran this command:
-``` bash
+``` shell
 $ exiftool Challenge1.png
 ExifTool Version Number         : 13.55
 File Name                       : Challenge1.png
@@ -39,3 +39,8 @@ and we can see that the flag is in the author field
 
 Next i went to yandex to do a reverse image search
 <img src="yandex1.png"></img>
+
+# Challenge 2
+
+This challenge has no hidden flags and is purely a image location task.
+
